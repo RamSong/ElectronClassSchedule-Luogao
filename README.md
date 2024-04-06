@@ -13,6 +13,6 @@
 
 本软件遵循 `GPLv3` 开源协议
 
-##Thanks
+## Thanks
 
 https://github.com/EnderWolf006/ElectronClassSchedule
