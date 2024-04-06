@@ -11,5 +11,8 @@
 
 ## 开源协议
 
-使用了项目模板 https://github.com/EnderWolf006/ElectronClassSchedule
-本软件遵循 `GPLv3` 开源协议，以下为该协议内容解读摘要:
+本软件遵循 `GPLv3` 开源协议
+
+##Thanks
+
+https://github.com/EnderWolf006/ElectronClassSchedule
