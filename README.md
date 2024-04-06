@@ -2,8 +2,14 @@
 
 ![view](image/README/view.png)
 
-## only for class 12 2024 spring
+>  but only for class 12 2024 spring
+
+## 使用
+
+1. https://github.com/RamSong/ElectronClassSchedule-Luogao/releases
+2. https://github.com/RamSong/ElectronClassSchedule-Luogao/actions
 
 ## 开源协议
 
+使用了项目模板 https://github.com/EnderWolf006/ElectronClassSchedule
 本软件遵循 `GPLv3` 开源协议，以下为该协议内容解读摘要:
