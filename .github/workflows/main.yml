@@ -44,8 +44,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.event.push.head_commit.timestamp }}
-          release_name: ${{ github.event.push.head_commit.timestamp }}
+          tag_name: ${{ steps.get_date.outputs.date }}
+          release_name: ${{ github.event.head_commit.message }}
           body: |
             - 点击下方 `ElectronClassSchedule.zip` 即可下载，下载完成后请先解压再运行
             - 若下载过慢可使用第三方代理下载 [点击前往](https://mirror.ghproxy.com/)
