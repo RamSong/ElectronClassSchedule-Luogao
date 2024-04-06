@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
+          tag_name: Latest
           release_name: ${{ github.event.push.head_commit.timestamp }}
           body: |
             - 点击下方 `ElectronClassSchedule.zip` 即可下载，下载完成后请先解压再运行
@@ -99,14 +99,12 @@ jobs:
           asset_content_type: application/zip
 
       - name: 🚀 推送至 Action ( windows 7/8 )
-        if: matrix.platform == 'windows-latest'
         uses: actions/upload-artifact@v3
         with:
           name: Win7_Win8_ElectronClassSchedule.zip
           path: ./out/classSchedule-win32-x64/release-electron-22.3.27.zip
 
       - name: 🌤️ 推送至 Action ( windows 10/11 )
-        if: matrix.platform == 'windows-latest'
         uses: actions/upload-artifact@v3
         with:
           name: Win10_Win11_ElectronClassSchedule.zip
