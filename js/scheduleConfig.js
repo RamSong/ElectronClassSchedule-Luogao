@@ -118,7 +118,7 @@ const _scheduleConfig = {
         {
             Chinese: '五',
             English: 'FRI',
-            classList: '英', '物', '化', '数', '生', '语', '自', '自', '自', '自',
+            classList: '语', '物', '英', '自', '体', '生', '数', '地', '自', '化', '英',
             timetable: 'workday'
         },
         {
