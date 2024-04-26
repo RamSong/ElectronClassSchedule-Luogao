@@ -124,7 +124,7 @@ const _scheduleConfig = {
         {
             Chinese: '六',
             English: 'SAT',
-            classList: '英', '物', '化', '数', '生', '语', '自', '自', '自', '自',
+            classList: '化', '英', '生', '自', '物', '语', '语', '数', '数', '生', '物',
             timetable: 'weekend'
         }
     ],
