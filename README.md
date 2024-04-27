@@ -21,6 +21,7 @@
 ## 📑 开源协议
 
 本软件遵循 `GPLv3` 开源协议
+转载请注明作者 Ramsong & EnderWolf006
 
 ## ♥️ Thanks
 
