@@ -92,7 +92,7 @@ const _scheduleConfig = {
     // value（冒号后）为分隔线所在位置的前一个课程序号(从0开始的数字[不带''])
     divider: {
         workday: [4, 8],
-        saturday: [4],
+        saturday: [4, 5],
     },
 
     // 每日课程：配置星期几对应第几堂课是什么课，星期顺序不可以更改(星期日/一/二/三/四/五/六)，你可以对classList后面内容进行更改
@@ -139,7 +139,7 @@ const _scheduleConfig = {
         {
             Chinese: '六',
             English: 'SAT',
-            classList: '化', '英', '生', '自', '物', '语', '语', '数',
+            classList: '英', '物', '化', '数', '生', '语', '自', '自',
             timetable: 'saturday'
         }
     ],
