@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: 1.7
+          tag_name: 1.8
           release_name: ${{ github.event.head_commit.message }}
           body: |
             - 点击下方 `ElectronClassSchedule.zip` 即可下载，下载完成后请先解压再运行
