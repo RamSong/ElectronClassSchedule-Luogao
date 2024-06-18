@@ -65,7 +65,7 @@ app.whenReady().then(() => {
         win.webContents.send('getWeekIndex');
     })
     const handle = win.getNativeWindowHandle();
-    DisableMinimize(handle); // Thank to peter's project https://github.com/tbvjaos510/electron-disable-minimize
+    DisableMinimize(handle); // Thank to peter's project https://github.com/RamSong/ElectronClassSchedule-Luogao
     setAutoLaunch()
 })
 
@@ -128,7 +128,7 @@ ipcMain.on('getWeekIndex', (e, arg) => {
             icon: basePath + 'image/github.png',
             label: '源码仓库',
             click: () => {
-                shell.openExternal('https://github.com/EnderWolf006/ElectronClassSchedule');
+                shell.openExternal('https://github.com/RamSong/ElectronClassSchedule-Luogao');
             }
         },
         {
@@ -183,7 +183,7 @@ ipcMain.on('getWeekIndex', (e, arg) => {
             click: () => {
                 dialog.showMessageBox(win, {
                     title: '请确认',
-                    message: '你确定要退出程序吗?',
+                    message: 'RamSong提醒您：你确定要退出程序吗? tips：本程序开源免费，请勿倒卖。',
                     buttons: ['取消', '确定']
                 }).then((data) => {
                     if (data.response) app.quit()
